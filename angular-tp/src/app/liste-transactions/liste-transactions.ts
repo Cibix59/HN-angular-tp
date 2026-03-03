@@ -14,7 +14,7 @@ export class ListeTransactions {
   transactions = signal<any[]>([]);
   ordreAscendant = true;    // Pour savoir dans quel sens trier
 
-
+  //pour acceder aux infos des transactions 
   private transactionService = inject(Transaction);
 
   ngOnInit() {
